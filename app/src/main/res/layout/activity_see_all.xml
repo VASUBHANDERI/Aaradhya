@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leaves_bg_light"
+    tools:context=".activities.SeeAllActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/see_all_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/pithi"
+        android:minHeight="?attr/actionBarSize"
+        app:title="All Items"
+        android:theme="?attr/actionBarTheme"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/see_all_rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/see_all_toolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "616676417368",
+    "project_id": "aaradhya-29172",
+    "storage_bucket": "aaradhya-29172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616676417368:android:1188cf56c897e8e5fccf2d",
+        "android_client_info": {
+          "package_name": "com.example.aaradhya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616676417368-31vo46qfja5rg14md0nt03g0pqtrrb52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFRzlNZXjRzJ4wqRwZyAjKBp4CbWUpqXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616676417368-31vo46qfja5rg14md0nt03g0pqtrrb52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
